@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #00bcd4;
+  padding: 10px 40px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+.nav-item ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.nav-item ul li {
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-item ul li:hover {
+  color: #00bcd4;
+  transform: scale(1.05);
+}
+
+
+  /* .res-card{
+    padding: 5px;
+    width: 250px;
+    height:350px;
+    background-color: gainsboro;
+    border-radius: 10px;
+
+    /* display: flex; */
+    /* column-gap: 0px; */
+    /* margin: 10px; */ 
+  */
+
+  /* .res-card:hover{
+  border: 2px black solid;
+  cursor: pointer;
+    
+  } */
+
+  .search{
+    padding: 15px;
+  }
+
+  .food-img{
+    
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+  }
+
+  .res-conatainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
