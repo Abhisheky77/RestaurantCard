@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #00bcd4;
-  padding: 10px 40px;
+  padding: 10px 40px; 
   background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -72,3 +72,9 @@
     flex-wrap: wrap;
     padding: 20px;
   }
+
+  .btn{
+    
+  }
+
+  
