@@ -1,5 +1,5 @@
 
-export const restaurantList = [
+const restaurantList = [
   {
     type: "restaurant",
     data: {
@@ -149,7 +149,7 @@ export const restaurantList = [
       cuisines: ["Chinese", "Asian", "Thai"],
       costForTwo: 50000,
       deliveryTime: 38,
-      avgRating: "4.0",
+      avgRating: "3.5",
       uuid: "bj-8888",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMNKNRVCRp0fKWuJ7FbPQjFqnAM-Noqde1Yzn8jyq07E6COOS9pxEZGOvUiFoV2AodsFg&usqp=CAU"
     }
@@ -163,7 +163,7 @@ export const restaurantList = [
       cuisines: ["Beverages", "Snacks", "Fast Food"],
       costForTwo: 20000,
       deliveryTime: 20,
-      avgRating: "4.3",
+      avgRating: "3.0",
       uuid: "chai-9999",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhDrnH6oxYIS2351Kf4m-WbWUIuioyJaMmUlXCLIMM3Qr3rNvmVAOQsys6xyfX5eFz4cw&usqp=CAU"
     }
@@ -177,7 +177,7 @@ export const restaurantList = [
       cuisines: ["Continental", "Healthy Food", "Salads"],
       costForTwo: 45000,
       deliveryTime: 27,
-      avgRating: "4.2",
+      avgRating: "2.2",
       uuid: "fm-1010",
       img: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
     }
@@ -191,7 +191,7 @@ export const restaurantList = [
       cuisines: ["Tibetan", "Chinese", "Snacks"],
       costForTwo: 35000,
       deliveryTime: 25,
-      avgRating: "4.0",
+      avgRating: "4.3",
       uuid: "momo-1212",
       img: "https://www.wowmomo.com/wp-content/uploads/2025/06/Quick-Eats-_1920X799.png"
     }
@@ -205,7 +205,7 @@ export const restaurantList = [
       cuisines: ["South Indian", "Chinese", "Juices"],
       costForTwo: 30000,
       deliveryTime: 22,
-      avgRating: "4.3",
+      avgRating: "2.3",
       uuid: "udupi-1313",
       img: "https://lh3.googleusercontent.com/PHTvqC4ERjQOqY4SHwI_0z13Dn74yiy1o_uWUBrmGDen6h27jQY1YI_KdzVF-JJbYF3j0ZFH38Yn99843-trQi01G01qhaWteKXBVZY=w256-rw"
     }
